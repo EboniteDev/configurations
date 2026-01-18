@@ -1,16 +1,14 @@
 # Structure
-<pre>
-./
+
+### /fastfetch/
+  <b>2077.txt</b> <i>#ascii art file, if you rename/import another one make sure to modify the jsonc</i>
+  <br>
+  <b>config.jsonc</b>
   
-### fastfetch/
-  2077.txt !ascii art file, if you rename/import another one make sure to modify the jsonc
-  config.jsonc
+### /fooyin/
+  <b>CustomLayout1.fyl</b>
   
-### fooyin/
-  CustomLayout1.fyl
+### /rofi_launcher/
+  <b>config.rasi</b>
   
-### rofi_launcher/
-  config.rasi
-  
-### 'IRC Manual.txt'/ #manual for IRC configuration
-</pre>
+### 'IRC Manual.md' #manual for IRC configuration
