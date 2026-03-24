@@ -1,7 +1,7 @@
 		+--------------------------+
 		|ENABLE THE PREFERENCES .JS|
 		+--------------------------+
-The user.js is the arkenfox user.js from github (February 20 2026).
+The user.js is the arkenfox user.js from github (March 24 2026).
 
 To save the preferences copy the user*.js files inside your profile root.
 The location should be something like this: /home/USER/.mozilla/firefox/123abcd4.default-release-1
