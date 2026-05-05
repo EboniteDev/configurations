@@ -1,0 +1,12 @@
+! https://www.youtube.com - RECOMMENDATIONS
+! COMMENT OUT TO MAKE RECOMMENDATIONS VISIBLE
+www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope > .ytd-watch-next-secondary-results-renderer.style-scope
+
+! https://www.perplexity.ai - DISABLE GUEST WALL
+www.perplexity.ai##.md\:pb-lg.md\:pt-lg.justify-center.flex-col.flex.grow.p-md
+www.perplexity.ai##.flex-col.flex.divide-subtlest.ring-subtlest.border-subtlest.border-t.w-screen.md\:grow-\[unset\].md\:w-\[unset\].rounded-none.grow.h-full
+www.perplexity.ai##.flex-col.flex.h-\[100dvh\].md\:h-screen.w-screen.backdrop-blur-sm.bg-backdrop\/25.bg-none.fill-mode-both.scrollbar-subtle.overflow-y-auto.shadow-md
+www.perplexity.ai##.justify-center.items-center.flex.overflow-y-auto.inset-0.fixed
+www.perplexity.ai##.backdrop-blur-sm.duration-200.ease-outExpo.fade-in.animate-in.bg-backdrop\/70.inset-0.fixed.fill-mode-both.md\:items-center.items-stretch
+www.perplexity.ai##.justify-center.items-center.flex.overflow-y-auto.inset-0.fixed
+www.perplexity.ai##.backdrop-blur-sm.duration-200.ease-outExpo.fade-in.animate-in.bg-backdrop\/70.inset-0.fixed.fill-mode-both.md\:items-center.items-stretch

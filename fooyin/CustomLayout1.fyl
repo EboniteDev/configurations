@@ -6,15 +6,16 @@
         {
             "TabStack": {
                 "Position": "North",
+                "RememberLastTab": false,
                 "State": "Overview\u001fLyrics",
                 "Widgets": [
                     {
                         "SplitterVertical": {
-                            "State": "AAAA/wAAAAEAAAACAAABvwAAAH0A/////wEAAAACAA==",
+                            "State": "AAAA/wAAAAEAAAACAAABvwAAAH8A/////wEAAAACAA==",
                             "Widgets": [
                                 {
                                     "SplitterVertical": {
-                                        "State": "AAAA/wAAAAEAAAACAAABrgAAADkA/////wEAAAACAA==",
+                                        "State": "AAAA/wAAAAEAAAACAAAA/AAAADkA/////wEAAAACAA==",
                                         "Widgets": [
                                             {
                                                 "SplitterVertical": {
@@ -23,11 +24,13 @@
                                                         {
                                                             "TabStack": {
                                                                 "Position": "West",
+                                                                "RememberLastTab": false,
                                                                 "State": "Song\u001fLibrary",
                                                                 "Widgets": [
                                                                     {
                                                                         "TabStack": {
                                                                             "Position": "South",
+                                                                            "RememberLastTab": false,
                                                                             "State": "Art\u001fSelection Info",
                                                                             "Widgets": [
                                                                                 {
@@ -42,14 +45,25 @@
                                                                                                             "ArtworkPanel": {
                                                                                                                 "CoverAlignment": 132,
                                                                                                                 "CoverType": 0,
+                                                                                                                "FadeCoverChanges": false,
+                                                                                                                "FadeDurationMs": 1000,
                                                                                                                 "KeepAspectRatio": true
                                                                                                             }
                                                                                                         },
                                                                                                         {
                                                                                                             "PeakMeter": {
+                                                                                                                "BarSections": 1,
+                                                                                                                "BarSize": 0,
+                                                                                                                "BarSpacing": 1,
+                                                                                                                "ChannelSpacing": 1,
+                                                                                                                "FalloffTime": 13,
                                                                                                                 "Orientation": 2,
+                                                                                                                "PeakHoldTime": 1.5,
+                                                                                                                "SectionSpacing": 1,
                                                                                                                 "ShowLegend": false,
-                                                                                                                "ShowPeaks": false
+                                                                                                                "ShowPeaks": false,
+                                                                                                                "UpdateFps": 40,
+                                                                                                                "UseCustomColours": false
                                                                                                             }
                                                                                                         }
                                                                                                     ]
@@ -69,7 +83,7 @@
                                                                                         "ShowHeader": true,
                                                                                         "ShowHorizontalScrollbar": true,
                                                                                         "ShowVerticalScrollbar": true,
-                                                                                        "State": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARkAAAACAAAAAAAAAAAAAAAAAAAAAGT/////AAAAhAAAAAAAAAACAAAAnAAAAAEAAAAAAAAAfQAAAAEAAAACAAAD6AAAAAkWAAAAAAAAAAAAAAAAAAAAAQ=="
+                                                                                        "State": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkEAAAACAAAAAAAAAAAAAAAAAAAAAGT/////AAAAhAAAAAAAAAACAAAAnAAAAAEAAAAAAAABpQAAAAEAAAACAAAD6AAAAAkWAAAAAAAAAAAAAAAAAAAAAQ=="
                                                                                     }
                                                                                 }
                                                                             ]
@@ -77,7 +91,7 @@
                                                                     },
                                                                     {
                                                                         "SplitterVertical": {
-                                                                            "State": "AAAA/wAAAAEAAAACAAAAIAAAAXMA/////wEAAAACAA==",
+                                                                            "State": "AAAA/wAAAAEAAAACAAAAIgAAAXMA/////wEAAAACAA==",
                                                                             "Widgets": [
                                                                                 {
                                                                                     "SearchBar": {
@@ -87,7 +101,7 @@
                                                                                 },
                                                                                 {
                                                                                     "SplitterVertical": {
-                                                                                        "State": "AAAA/wAAAAEAAAACAAAAIAAAAVIA/////wEAAAACAA==",
+                                                                                        "State": "AAAA/wAAAAEAAAACAAAAIwAAAVIA/////wEAAAACAA==",
                                                                                         "Widgets": [
                                                                                             {
                                                                                                 "PlaylistSwitcher": {
@@ -96,7 +110,7 @@
                                                                                             {
                                                                                                 "Playlist": {
                                                                                                     "Columns": "1|2:2",
-                                                                                                    "HeaderState": "AAAANXjaY2BgYGJgYHAEYiUGCBsEGEFs+6ccmYeff0u2v/pep8JA2BokyPAfCACqdwwl",
+                                                                                                    "HeaderState": "AAAANXjaY2BgYGJgYHgPxDUMEDYIMILY9k85Mg8//5Zsf/W9ToWBsDVIkOE/EAAA2H8NLQ==",
                                                                                                     "ID": "39617be7bc28485a931519a80bf45f37",
                                                                                                     "Preset": 0,
                                                                                                     "SingleMode": false
@@ -163,7 +177,7 @@
                                 },
                                 {
                                     "SplitterHorizontal": {
-                                        "State": "AAAA/wAAAAEAAAACAAAA7wAAAKcA/////wEAAAABAA==",
+                                        "State": "AAAA/wAAAAEAAAACAAAA7wAAAK0A/////wEAAAABAA==",
                                         "Widgets": [
                                             {
                                                 "SelectionInfo": {
@@ -172,11 +186,23 @@
                                                     "ShowHeader": false,
                                                     "ShowHorizontalScrollbar": false,
                                                     "ShowVerticalScrollbar": false,
-                                                    "State": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAV8AAAACAAAAAQAAAAABAAAAAAAAAGT/////AAAAhAAAAAAAAAACAAAAZAAAAAEAAAAAAAAA+wAAAAEAAAABAAAD6AAAAABkAAAAAAAAAAAAAAAAAAAAAQ=="
+                                                    "State": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARIAAAACAAAAAQAAAAAAAAAAAAAAAGT/////AAAAhAAAAAAAAAACAAAAZAAAAAEAAAAAAAAArgAAAAEAAAACAAAD6AAAAACuAAAAAAAAAAAAAAAAAAAAAQ=="
                                                 }
                                             },
                                             {
                                                 "DirectoryBrowser": {
+                                                    "DoubleClickAction": 5,
+                                                    "IndentList": true,
+                                                    "MiddleClickAction": 0,
+                                                    "Mode": 1,
+                                                    "RootPath": "/home/user01/Music",
+                                                    "SendPlayback": true,
+                                                    "ShowControls": true,
+                                                    "ShowHidden": false,
+                                                    "ShowHorizontalScrollbar": true,
+                                                    "ShowIcons": true,
+                                                    "ShowLocation": true,
+                                                    "ShowSymLinks": false
                                                 }
                                             }
                                         ]
@@ -187,11 +213,11 @@
                     },
                     {
                         "SplitterHorizontal": {
-                            "State": "AAAA/wAAAAEAAAACAAABKgAAA0MA/////wEAAAABAA==",
+                            "State": "AAAA/wAAAAEAAAACAAABmwAABdIA/////wEAAAABAA==",
                             "Widgets": [
                                 {
                                     "SplitterVertical": {
-                                        "State": "AAAA/wAAAAEAAAACAAAATwAAAFMA/////wEAAAACAA==",
+                                        "State": "AAAA/wAAAAEAAAACAAAAUAAAAFMA/////wEAAAACAA==",
                                         "Widgets": [
                                             {
                                                 "SplitterVertical": {
@@ -212,7 +238,7 @@
                                                                     },
                                                                     {
                                                                         "SplitterVertical": {
-                                                                            "State": "AAAA/wAAAAEAAAACAAAAKAAAAWwA/////wEAAAACAA==",
+                                                                            "State": "AAAA/wAAAAEAAAACAAAAHgAAAXEA/////wEAAAACAA==",
                                                                             "Widgets": [
                                                                                 {
                                                                                     "SeekBar": {
@@ -224,6 +250,8 @@
                                                                                     "ArtworkPanel": {
                                                                                         "CoverAlignment": 132,
                                                                                         "CoverType": 0,
+                                                                                        "FadeCoverChanges": false,
+                                                                                        "FadeDurationMs": 1000,
                                                                                         "KeepAspectRatio": true
                                                                                     }
                                                                                 }
@@ -243,7 +271,7 @@
                                                     "ShowHeader": true,
                                                     "ShowHorizontalScrollbar": false,
                                                     "ShowVerticalScrollbar": true,
-                                                    "State": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfQAAAACAAAAAQAAAAABAAAAAAAAAGT/////AAAAhAAAAAAAAAACAAAAZAAAAAEAAAAAAAABkAAAAAEAAAABAAAD6AAAAABkAAAAAAAAAAAAAAAAAAAAAQ=="
+                                                    "State": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGQAAAACAAAAAQAAAAAAAAAAAAAAAGT/////AAAAhAAAAAAAAAACAAAAZAAAAAEAAAAAAAAAAAAAAAEAAAACAAAD6AAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=="
                                                 }
                                             }
                                         ]
@@ -251,10 +279,28 @@
                                 },
                                 {
                                     "SplitterHorizontal": {
-                                        "State": "AAAA/wAAAAEAAAACAAACdQAAAM0A/////wEAAAABAA==",
+                                        "State": "AAAA/wAAAAEAAAACAAAEhgAAAXcA/////wEAAAABAA==",
                                         "Widgets": [
                                             {
                                                 "Lyrics": {
+                                                    "Alignment": 132,
+                                                    "BaseFont": "",
+                                                    "BottomMargin": 20,
+                                                    "EdgeFadeMode": 1,
+                                                    "EdgeFadeSize": 10,
+                                                    "LeftMargin": 20,
+                                                    "LineFont": "",
+                                                    "LineSpacing": 5,
+                                                    "NoLyricsScript": "[Artist: %artist%$crlf(2)][Album: %album%$crlf(2)]Title: %title%",
+                                                    "RightMargin": 20,
+                                                    "ScrollDuration": 500,
+                                                    "ScrollMode": 1,
+                                                    "SeekOnClick": true,
+                                                    "ShowScrollbar": true,
+                                                    "TopMargin": 20,
+                                                    "UseCustomColours": false,
+                                                    "WordFont": "",
+                                                    "WordLineFont": ""
                                                 }
                                             },
                                             {
@@ -273,6 +319,8 @@
                                                                         "ArtworkPanel": {
                                                                             "CoverAlignment": 132,
                                                                             "CoverType": 2,
+                                                                            "FadeCoverChanges": false,
+                                                                            "FadeDurationMs": 1000,
                                                                             "KeepAspectRatio": true
                                                                         }
                                                                     },
@@ -295,9 +343,5 @@
                 ]
             }
         }
-    ],
-    "WindowSize": {
-        "Height": 636,
-        "Width": 616
-    }
+    ]
 }
