@@ -9,12 +9,12 @@ endif
 
 let g:colors_name = 'ebonite-kaki' "theme name
 
-hi Normal         guifg=#ffffff guibg=NONE     ctermfg=15 ctermbg=NONE
-hi NonText        guifg=light-grey guibg=NONE     ctermfg=8  ctermbg=NONE
+hi Normal         guifg=#ffffff guibg=NONE      ctermfg=15 ctermbg=NONE
+hi NonText        guifg=light-grey guibg=NONE   ctermfg=8  ctermbg=NONE
 hi NormalFloat    guibg=NONE                    ctermbg=NONE
 hi SignColumn     guibg=NONE                    ctermbg=NONE
-hi LineNr         guifg=yellow guibg=NONE     ctermfg=8  ctermbg=NONE
-hi StatusLine     guibg=NONE                    ctermbg=NONE
+hi LineNr         guifg=yellow guibg=NONE       ctermfg=8  ctermbg=NONE
+hi StatusLine     guifg=#00ff00 guibg=NONE      ctermbg=NONE
 hi StatusLineNC   guibg=NONE                    ctermbg=NONE
 hi MsgArea        guibg=NONE                    ctermbg=NONE
 hi MsgSeparator   guibg=NONE                    ctermbg=NONE
@@ -35,4 +35,5 @@ hi CursorLine     guibg=#2f2f2f                 ctermbg=236
 hi CursorLineNr   guifg=#ffff00                 ctermfg=11
 hi Search         guibg=#00aa00                 ctermbg=34
 hi Visual         guibg=#626200                 ctermbg=100
+
 
