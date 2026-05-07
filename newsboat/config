@@ -1,0 +1,25 @@
+#<command> <arg1>...
+# check the manual or the website for all configurations
+#
+# @[https://newsboat.org/releases/2.43/docs/newsboat.html#_configuration]
+# and @[https://newsboat.org/releases/2.43/docs/newsboat.html#_newsboat_configuration_commands]
+
+refresh-on-startup yes #refresh all feeds on newsboat startup
+
+# Automatic refreshes
+# auto-reload yes #enable auto refresh
+# reload-time <MINUTES>
+auto-reload yes
+reload-time 240 # every 4 hours
+
+
+# Hardening
+ssl-verifypeer yes # Enforce SSL verification
+ssl-verifyhost yes
+download-path ""  # No media/enclosure path
+max-download-item-size 0  # Blocks all non-feed downloads
+ignore-article .* "enclosure"  # Ignore any enclosure mentions
+
+# Notifications
+notify-screen yes # Desktop notif.
+notify-program "notify-send 'Newsboat' '%t: %n new article(s)'" # Send notifications to the Desktop Environment trough this command
